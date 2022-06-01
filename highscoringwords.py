@@ -58,7 +58,7 @@ def readBoth():
         topHundretsNumbers.append(amountOfNumbers[PlaceAndWord])
         topHundretsWords.append(allowedWords[PlaceAndWord])
         
-        topAllHundrets += (str(countUp) + ". " + allowedWords[PlaceAndWord] + "Valueying :" + str(amountOfNumbers[PlaceAndWord]) + " Points\n")
+        topAllHundrets += (str(countUp) + ". " + allowedWords[PlaceAndWord] + "- Valueying :" + str(amountOfNumbers[PlaceAndWord]) + " Points\n")
         del amountOfNumbers[PlaceAndWord]
         del allowedWords[PlaceAndWord]
 
